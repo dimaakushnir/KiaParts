@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Реєстрація</title>
+</head>
+
+<body>
+    <main class="login registration">
+        <div class="login__container container">
+            <div class="login__body">
+                <a href="index.html" class="login__logo logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="login__title">реєстрація</div>
+                <div class="login__subtitle subtitle-login">
+                    Вже є обліковий запис? <a href="sing-in.html" class="subtitle-login__link">Увійдіть</a>
+                </div>
+                <form action="#" class="login__form form-login">
+                    <div class="form-login__item">
+                        <label for="formLoginName" class="form-login__label">Ім’я</label>
+                        <input id="formLoginName" placeholder="Ім’я" autocomplete='off' type='text' name='name'
+                            class='form-login__input input'>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginSurname" class="form-login__label">Прізвище</label>
+                        <input id="formLoginSurname" placeholder="Прізвище" autocomplete='off' type='text'
+                            name='surname' class='form-login__input input'>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginPhone" class="form-login__label">Ваш телефон</label>
+                        <input id="formLoginPhone" placeholder="Телефон" autocomplete='off' type='tel' name='tel'
+                            class='form-login__input input tel'>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginEmail" class="form-login__label">Ваша пошта</label>
+                        <input id="formLoginEmail" placeholder="Ваша пошта" autocomplete='off' type='email' name='email'
+                            class='form-login__input input'>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginCity" class="form-login__label">Вибір міста</label>
+                        <div class="dropdown form-login__dropdown">
+                            <button class='dropdown__button'>Кременчук</button>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__list-item" data-dropdown="Кременчук">Кременчук</li>
+                                <li class="dropdown__list-item" data-dropdown="Кременчук">Львів</li>
+                                <li class="dropdown__list-item" data-dropdown="Кременчук">Київ</li>
+                                <li class="dropdown__list-item" data-dropdown="Кременчук">Одеса</li>
+                            </ul>
+                            <input id="formLoginCity" type='text' name='city' value='' class='dropdown__input-hidden'>
+                        </div>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginPassword" class="form-login__label">Пароль</label>
+                        <input id="formLoginPassword" placeholder="Пароль" autocomplete='off' type='password'
+                            name='password' class='form-login__input input'>
+                    </div>
+                    <div class="form-login__item">
+                        <label for="formLoginPasswordRepeat" class="form-login__label">Повторіть пароль</label>
+                        <input id="formLoginPasswordRepeat" placeholder="Повторіть пароль" autocomplete='off'
+                            type='password' name='password-repeat' class='form-login__input input'>
+                    </div>
+                    <button type='submit' class='form-login__btn btn'>Зареєструватись</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__body">
+            <div class="footer__inner">
+                <div class="footer__row">
+                    <div class="footer__logo-block logo-block-footer" data-da="footer__body, 0, 1332">
+                        <a href="index.html" class="logo-block-footer__logo logo">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                        <div class="logo-block-footer__payment payment-footer">
+                            <div class="payment-footer__text">До оплати приймаємо:</div>
+                            <ul class="payment-footer__items">
+                                <li class="payment-footer__item">
+                                    <img src="img/icons/payment/privat24.svg" alt="privat24">
+                                </li>
+                                <li class="payment-footer__item">
+                                    <img src="img/icons/payment/liqpay.svg" alt="liqpay">
+                                </li>
+                                <li class="payment-footer__item">
+                                    <img src="img/icons/payment/mastercard.svg" alt="mastercard">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__info-pages info-pages-footer">
+                        <div class="info-pages-footer__label footer-label">Інформаційні сторінки</div>
+                        <nav class="info-pages-footer__menu">
+                            <ul class="info-pages-footer__list">
+                                <div class="info-pages-footer__column">
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Головна</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Оплата</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Доставка</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Планова доставка<br>
+                                            габариту</a>
+                                    </li>
+                                </div>
+                                <div class="info-pages-footer__column">
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Література</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Контакти</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Новини</a>
+                                    </li>
+                                    <li class="info-pages-footer__item">
+                                        <a href="" class="info-pages-footer__link footer-link">Вакансії</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__catalog catalog-footer">
+                        <div class="catalog-footer__label footer-label">Каталог</div>
+                        <nav class="catalog-footer__menu">
+                            <ul class="catalog-footer__list">
+                                <div class="catalog-footer__column">
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Підбор по каталогу</a>
+                                    </li>
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Аксесуари та тюнінг</a>
+                                    </li>
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Масла та рідини</a>
+                                    </li>
+                                </div>
+                                <div class="catalog-footer__column">
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Бренди на сайті</a>
+                                    </li>
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Оптовим покупцям</a>
+                                    </li>
+                                    <li class="catalog-footer__item">
+                                        <a href="" class="catalog-footer__link footer-link">Постачальникам</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__managers managers-footer" data-da="footer__bottom, 0, 1332">
+                        <div class="managers-footer__label footer-label">Менеджери з підбору запчастин</div>
+                        <div class="managers-footer__row">
+                            <div class="managers-footer__columns">
+                                <div class="managers-footer__columns-1">
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380677930000" class="managers-footer__link footer-link">(067)
+                                            793-00-00</a>
+                                        <a href="tel:+380957350021" class="managers-footer__link footer-link">(095)
+                                            735-00-21</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Основна філія - Кременчук)
+                                        </div>
+                                    </div>
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380976251644" class="managers-footer__link footer-link">(097)
+                                            625-16-44</a>
+                                        <a href="tel:+380994320000" class="managers-footer__link footer-link">(099)
+                                            432-00-00</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Основна філія - Кременчук)
+                                        </div>
+                                    </div>
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380982042222" class="managers-footer__link footer-link">(098)
+                                            204-22-22</a>
+                                        <a href="tel:+380662042222" class="managers-footer__link footer-link">(066)
+                                            204-22-22</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Філія - Київ-1 (Куренівка)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="managers-footer__columns-2">
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380982052222" class="managers-footer__link footer-link">(098)
+                                            205-22-22</a>
+                                        <a href="tel:+380662052222" class="managers-footer__link footer-link">(066)
+                                            205-22-22</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Філія - Київ-2 (Харківська)
+                                        </div>
+                                    </div>
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380979903555" class="managers-footer__link footer-link">(097)
+                                            990-35-55</a>
+                                        <a href="tel:+380509903555" class="managers-footer__link footer-link">(050)
+                                            990-35-55</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Філія - Дніпро)
+                                        </div>
+                                    </div>
+                                    <div class="managers-footer__column">
+                                        <a href="tel:+380980012020" class="managers-footer__link footer-link">(098)
+                                            001-20-20</a>
+                                        <a href="tel:+380952852525" class="managers-footer__link footer-link">(095)
+                                            285-25-25</a>
+                                        <div class="managers-footer__link footer-link footer-link_info">
+                                            (Філія - Кривий Ріг)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="managers-footer__column-socials socials-footer">
+                                <div class="managers-footer__column socials-footer__column">
+                                    <a href="tel:+380682460000" class="managers-footer__link footer-link">(068)
+                                        246-00-00</a>
+                                    <a href="tel:+380662460000" class="managers-footer__link footer-link">(066)
+                                        246-00-00
+                                    </a>
+                                    <div class="managers-footer__link footer-link footer-link_info">
+                                        (Філія - Полтава)
+                                    </div>
+                                </div>
+                                <div class="socials-footer__body">
+                                    <ul class="socials-footer__items">
+                                        <li class="socials-footer__item">
+                                            <a href="" class="socials-footer__link socials-footer__link_whatsapp">
+                                                <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                                            </a>
+                                        </li>
+                                        <li class="socials-footer__item">
+                                            <a href="" class="socials-footer__link socials-footer__link_telegram">
+                                                <img src="img/icons/telegram.svg" alt="telegram">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/maskinput.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
