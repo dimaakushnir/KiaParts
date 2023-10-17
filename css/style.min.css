@@ -8572,6 +8572,11 @@ body.lock {
     height: 14px;
   }
 }
+@media (max-width: 1332px) {
+  .additional-contacts__item_delivery .item-additional-contacts__column:last-child .item-additional-contacts__link {
+    white-space: normal;
+  }
+}
 .additional-contacts__item_managers .item-additional-contacts__icon svg {
   flex: 0 0 22px;
   width: 22px;
@@ -8582,6 +8587,16 @@ body.lock {
     flex: 0 0 15px;
     width: 15px;
     height: 15px;
+  }
+}
+@media (max-width: 1332px) {
+  .additional-contacts__item_managers .item-additional-contacts__column:last-child .item-additional-contacts__link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px) {
+  .additional-contacts__item_managers .item-additional-contacts__column:last-child .item-additional-contacts__link {
+    font-size: 14px;
   }
 }
 .additional-contacts__item_questions .item-additional-contacts__column:nth-child(3) {
@@ -8598,6 +8613,9 @@ body.lock {
     width: 14px;
     height: 14px;
   }
+}
+.additional-contacts__item_offers .item-additional-contacts__column:nth-child(3) {
+  opacity: 0;
 }
 .additional-contacts__item_offers .item-additional-contacts__icon svg {
   flex: 0 0 22px;
@@ -8642,7 +8660,7 @@ body.lock {
   }
 }
 .item-additional-contacts__column {
-  flex: 0 1 25%;
+  flex: 0 0 25%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -8660,12 +8678,36 @@ body.lock {
   .item-additional-contacts__column {
     padding: 0 10px 0 0;
   }
+  .item-additional-contacts__column:nth-child(1) {
+    flex: 0 0 26%;
+  }
+  .item-additional-contacts__column:nth-child(2) {
+    flex: 0 0 19%;
+  }
+  .item-additional-contacts__column:nth-child(3) {
+    flex: 0 0 25%;
+  }
+  .item-additional-contacts__column:nth-child(4) {
+    flex: 0 0 28%;
+  }
 }
 @media (max-width: 750px) {
   .item-additional-contacts__column {
     flex: 0 1 50%;
     margin: 0 0 10px 0;
     padding: 0;
+  }
+  .item-additional-contacts__column:nth-child(1) {
+    flex: 0 1 50%;
+  }
+  .item-additional-contacts__column:nth-child(2) {
+    flex: 0 1 50%;
+  }
+  .item-additional-contacts__column:nth-child(3) {
+    flex: 0 1 50%;
+  }
+  .item-additional-contacts__column:nth-child(4) {
+    flex: 0 1 50%;
   }
 }
 @media (max-width: 750px) {
