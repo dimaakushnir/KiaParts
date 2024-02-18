@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https:://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <title>Реєстрація</title>
 </head>
 
@@ -44,16 +45,9 @@
                     </div>
                     <div class="form-login__item">
                         <label for="formLoginCity" class="form-login__label">Вибір міста</label>
-                        <div class="dropdown form-login__dropdown">
-                            <button class='dropdown__button'>Кременчук</button>
-                            <ul class="dropdown__list">
-                                <li class="dropdown__list-item" data-dropdown="Кременчук">Кременчук</li>
-                                <li class="dropdown__list-item" data-dropdown="Кременчук">Львів</li>
-                                <li class="dropdown__list-item" data-dropdown="Кременчук">Київ</li>
-                                <li class="dropdown__list-item" data-dropdown="Кременчук">Одеса</li>
-                            </ul>
-                            <input id="formLoginCity" type='text' name='city' value='' class='dropdown__input-hidden'>
-                        </div>
+                        <input placeholder="Кременчук" id="user_city" type='text' name='form[]'
+                            class='form-login__input input'>
+                        <input id="formLoginCity" type='text' name='city' value='' class='dropdown__input-hidden'>
                     </div>
                     <div class="form-login__item">
                         <label for="formLoginPassword" class="form-login__label">Пароль</label>
@@ -64,6 +58,8 @@
                         <label for="formLoginPasswordRepeat" class="form-login__label">Повторіть пароль</label>
                         <input id="formLoginPasswordRepeat" placeholder="Повторіть пароль" autocomplete='off'
                             type='password' name='password-repeat' class='form-login__input input'>
+                    </div>
+                    <div class="form-login__errors">
                     </div>
                     <button type='submit' class='form-login__btn btn'>Зареєструватись</button>
                 </form>
@@ -256,7 +252,8 @@
         </div>
     </div>
 </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="js/maskinput.js"></script>
     <script src="js/app.min.js"></script>
 </body>
