@@ -4615,6 +4615,7 @@ body.lock {
 @media (max-width: 1332px) {
   .top-header__burger {
     display: flex;
+    display: none;
   }
 }
 @media (max-width: 375px) {
@@ -5218,6 +5219,7 @@ body.lock {
   flex: 1 1 100%;
 }
 .bottom-header__cart {
+  display: none;
   margin: 0 0 0 20px;
 }
 @media (max-width: 1332px) {
