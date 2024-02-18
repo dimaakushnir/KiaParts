@@ -4287,16 +4287,13 @@ body.lock {
   }
 }
 .top-header__row.hide .top-header__logo-block {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .top-header__row.hide .cart-bottom-header {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .top-header__row.hide .top-header__burger {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .top-header__logo-block {
   margin: 0 20px 0 0;
