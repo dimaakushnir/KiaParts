@@ -4286,9 +4286,6 @@ body.lock {
     justify-content: flex-end;
   }
 }
-.top-header__row.hide {
-  padding: 50px 0 0 0;
-}
 .top-header__row.hide .top-header__logo-block {
   opacity: 0;
   visibility: hidden;

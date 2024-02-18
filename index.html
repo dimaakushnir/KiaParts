@@ -358,7 +358,7 @@
 </svg>
     <div class="wrapper wrapper_home">
         <header class="header">
-            <div class="header__top top-header">
+            <!-- <div class="header__top top-header">
                 <div class="top-header__container container">
                     <div class="top-header__row">
                         <div class="top-header__logo-block">
@@ -452,7 +452,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="header__bottom bottom-header">
                 <div class="bottom-header__container container">
                     <div class="bottom-header__row">
@@ -582,29 +582,103 @@
         <main class="home">
             <section class="home__main main-home">
                 <div class="main-home__container container">
-                    <form class="top-header__form form-top-header">
-                        <div class="form-top-header__row">
-                            <a href="" class="form-top-header__close">
-                                <svg>
-                                    <use xlink:href="#close"></use>
-                                </svg>
-                            </a>
-                            <div class="form-top-header__item">
-                                <input placeholder="Пошук за номером" autocomplete='off' type='search' name='form[]'
-                                    class='form-top-header__input'>
-                                <button href="" class="form-top-header__search-icon">
-                                    <svg>
-                                        <use xlink:href="#search"></use>
-                                    </svg>
-                                </button>
+                    <div class="header__top top-header">
+                        <div class="top-header__container container">
+                            <div class="top-header__row">
+                                <div class="top-header__logo-block">
+                                    <a href="index.html" class="top-header__logo logo">
+                                        <img src="img/logo.svg" alt="logo">
+                                    </a>
+                                </div>
+                                <a href="" class="top-header__sing-in">
+                                    <span>
+                                        <svg>
+                                            <use xlink:href="#sing-in"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <form class="top-header__form form-top-header">
+                                    <div class="form-top-header__row">
+                                        <a href="" class="form-top-header__close">
+                                            <svg>
+                                                <use xlink:href="#close"></use>
+                                            </svg>
+                                        </a>
+                                        <div class="form-top-header__item">
+                                            <input placeholder="Пошук за номером" autocomplete='off' type='search'
+                                                name='form[]' class='form-top-header__input'>
+                                            <button href="" class="form-top-header__search-icon">
+                                                <svg>
+                                                    <use xlink:href="#search"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <a href="" class="form-top-header__mob-btn">
+                                            <svg>
+                                                <use xlink:href="#search"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </form>
+                                <a href="" class="top-header__our-phones hide-dashboard"
+                                    data-da="mobile-header__nav, 0, 750">
+                                    Наші телефони
+                                </a>
+                                <a href="" class="top-header__our-branches hide-main"
+                                    data-da="mobile-header__nav, 0, 750">
+                                    Наші філії
+                                </a>
+                                <div class="top-header__contact contact-top-header hide-main"
+                                    data-da="mobile-header__nav, 4, 600">
+                                    <div class="contact-top-header__city">м.Крменчук</div>
+                                    <a href="tel:+380976251644" class="contact-top-header__tel">(097) 625-16-44</a>
+                                </div>
+                                <a href="" class="top-header__call hide-dashboard" data-da="mobile-header__nav, 2, 650">
+                                    Зворотний дзвінок
+                                </a>
+                                <div class="top-header__languages languages-top-header hide-dashboard"
+                                    data-da="mobile-header__nav, 3, 600">
+                                    <div class="languages-top-header__dropdown dropdown">
+                                        <button class='dropdown__button'>Укр</button>
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__list-item" data-dropdown="укр">Укр</li>
+                                            <li class="dropdown__list-item" data-dropdown="рус">Рус</li>
+                                        </ul>
+                                        <input type='text' name='languages' value='укр' class='dropdown__input-hidden'>
+                                    </div>
+                                </div>
+                                <div class="top-header__login login-top-header hide-dashboard"
+                                    data-da="mobile-header__top, 0, 600">
+                                    <a href="" class="login-top-header__sing-in sing-in-login-top-header">
+                                        <span class="sing-in-login-top-header__icon">
+                                            <svg>
+                                                <use xlink:href="#sing-in"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="sing-in-login-top-header__text">Вхід</span>
+                                    </a>
+                                    <a href="" class="login-top-header__registration registration-login-top-header">
+                                        <span class="registration-login-top-header__icon">
+                                            <svg>
+                                                <use xlink:href="#registration"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="registration-login-top-header__text">Реєстрація</span>
+                                    </a>
+                                </div>
+                                <a href="" class="top-header__user user-top-header hide-main"
+                                    data-da="mobile-header__top, 0, 375">
+                                    <span class="user-top-header__icon">
+                                        <img src="img/icons/sing-in.svg" alt="sing-in">
+                                    </span>
+                                    <span class="user-top-header__name">Кавуннік Дмитро</span>
+                                </a>
+                                <div class="top-header__burger" data-da="top-header__row, 10, 1920">
+                                    <span></span><span></span><span></span>
+                                </div>
                             </div>
-                            <a href="" class="form-top-header__mob-btn">
-                                <svg>
-                                    <use xlink:href="#search"></use>
-                                </svg>
-                            </a>
                         </div>
-                    </form>
+                    </div>
                     <div class="main-home__body">
                         <div class="main-home__row">
                             <aside class="main-home__catalog catalog-main-home">
