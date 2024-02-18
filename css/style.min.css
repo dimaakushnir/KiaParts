@@ -4787,6 +4787,9 @@ body.lock {
 .form-top-header__input::placeholder {
   color: #4B4B4B;
 }
+.form-top-header__input:focus {
+  border: 1px solid red;
+}
 @media (max-width: 1332px) {
   .form-top-header__input {
     background-color: #FFFFFF;
