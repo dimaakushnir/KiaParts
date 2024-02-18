@@ -4615,7 +4615,6 @@ body.lock {
 @media (max-width: 1332px) {
   .top-header__burger {
     display: flex;
-    display: none;
   }
 }
 @media (max-width: 375px) {
@@ -4674,11 +4673,6 @@ body.lock {
 @media (max-width: 600px) {
   .form-top-header {
     width: auto;
-    position: absolute;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    z-index: 1;
   }
 }
 .form-top-header.active {
@@ -4767,7 +4761,6 @@ body.lock {
 @media (max-width: 600px) {
   .form-top-header__item {
     width: 44px;
-    width: 100%;
   }
 }
 @media (max-width: 355px) {
@@ -4803,8 +4796,6 @@ body.lock {
   .form-top-header__input {
     width: 0;
     padding: 0;
-    width: 100%;
-    padding: 5px 44px 5px 20px;
   }
 }
 .form-top-header__search-icon {
@@ -5219,7 +5210,6 @@ body.lock {
   flex: 1 1 100%;
 }
 .bottom-header__cart {
-  display: none;
   margin: 0 0 0 20px;
 }
 @media (max-width: 1332px) {
@@ -5515,7 +5505,6 @@ body.lock {
   display: -webkit-flex;
   display: flex;
   font-size: 0;
-  display: none;
   align-items: center;
   justify-content: center;
   text-align: center;
